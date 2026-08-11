@@ -86,3 +86,6 @@ while repetir == 's':
             print("Terminando o programa...")
             break
 
+        case _:
+            print("Opção Inválida!")
+
