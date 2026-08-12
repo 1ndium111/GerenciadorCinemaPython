@@ -10,7 +10,7 @@ fila8 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 fila9 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 teatro = [fila0, fila1, fila2, fila3, fila4, fila5, fila6, fila7, fila8, fila9]
-repetir = str('s')
+repetir = 's'
 def mostrar_teatro():
     print("")
     print("           --------- ASSENTOS ---------")
@@ -70,6 +70,7 @@ while repetir == 's':
             if repetir == 's':
                 continue
             else:
+                print("Encerrando o programa...")
                 break
     
         case 3:
@@ -80,12 +81,12 @@ while repetir == 's':
             if repetir == 's':
                 continue
             else:
+                print("Encerrando o programa...")
                 break
         
         case 4:
-            print("Terminando o programa...")
+            print("Encerrando o programa...")
             break
 
         case _:
             print("Opção Inválida!")
-
